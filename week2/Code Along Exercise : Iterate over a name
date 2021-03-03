@@ -1,0 +1,15 @@
+prompt the user for their first name. 
+Using a for loop, print each letter of the name on the same line, 
+count each letter in the name, and then print the count of letters in the name. So let's get some user input.
+
+
+
+code 
+------------
+
+first_name = input("please enter your first name .. ")
+char_list = 0
+for char in first_name :
+    print(char , end = ' ')
+    char_list += 1
+print(char_list)
